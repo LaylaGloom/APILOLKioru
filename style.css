@@ -1,3 +1,45 @@
+html,body,p{
+	font-family: 'Noto Serif JP', serif;
+}
+header{
+	padding: 0.2em!important;
+}
 .pad{
-    padding:2em;
+    padding:1em 0.5em!important;
+}
+.marg{
+	margin: 1em;
+}
+.dflex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.border-lol{
+	border-image: linear-gradient(to bottom,#827717 0%,#403a10 100%);
+    border-image-slice: 10%;
+    border-image-width: 3px;
+    border-width: 3px;
+    border-style: solid; 
+}
+.bg-grad{
+	background: linear-gradient(180deg, rgba(2,36,74,0.6979166666666667) 2%, rgba(1,132,131,0.5018382352941176) 29%, rgba(1,191,163,0.30015756302521013) 43%, rgba(0,212,255,0.196516106442577) 56%, rgba(255,255,255,0) 98%);
+}
+hr.lol{
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.lol:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #7d7c11;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
 }
